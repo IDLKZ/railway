@@ -15,8 +15,10 @@ class FrontController extends Controller
     }
 
     public function manager(){
-
         return view("frontend.manager");
+    }
+    public function docs(){
+        return view("frontend.docs");
     }
 
 }

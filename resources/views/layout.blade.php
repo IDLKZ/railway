@@ -52,8 +52,8 @@
             <ul>
                 <li class="active"><a href="index.html">О компании</a></li>
                 <li><a href="#">Ремонт по заявкам</a></li>
-                <li><a href="#">Руководство</a></li>
-                <li><a href="#">Документы</a></li>
+                <li><a href="{{route("managers")}}">Руководство</a></li>
+                <li><a href="{{route("docs")}}">Документы</a></li>
                 <li><a href="#">Контакты</a></li>
 
             </ul>
