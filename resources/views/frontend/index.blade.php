@@ -1,4 +1,4 @@
-@extends("layout.layout")
+@extends("layout")
 
 @section("content")
 
@@ -335,4 +335,4 @@
 
 
 
-@endsection
+@stop
