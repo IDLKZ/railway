@@ -12,9 +12,8 @@
 */
 
 
-$router->group(["middleware"=>"wget_defender"],function () use ($router){
     $router->get('/', ['uses' => 'FrontController@index', 'as' => 'home']);
     $router->get('/management', ['uses' => 'FrontController@manager', 'as' => 'managers']);
     $router->get('/docs', ['uses' => 'FrontController@docs', 'as' => 'docs']);
     $router->post('/sendmail', ['uses' => 'FrontController@sendmail', 'as' => 'sendmail']);
-});
+

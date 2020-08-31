@@ -77,9 +77,7 @@ $app->configure('app');
 // ]);
 
 
- $app->routeMiddleware([
-     'wget_defender' => App\Http\Middleware\WgetDefender::class,
- ]);
+
 // $app->middleware([
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
