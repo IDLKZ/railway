@@ -71,6 +71,14 @@
                         </p>
                     </div>
                 </div>
+                <figure>
+                    <div style="overflow: auto">
+                        <img src="/assets/img/step_bg.png" alt="Ремонт по заявкам" style="width: 100%; min-width: 760px;">
+                    </div>
+                </figure>
+                <div class="text-center">
+                    <a href="javascript:void(0)" class="btn" style="background-color: #F49D44">Оставить заявку</a>
+                </div>
 
             </div>
         </section><!-- End About Section -->
@@ -109,76 +117,77 @@
 
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
-            <div class="container">
+{{--        <section id="testimonials" class="testimonials section-bg">--}}
+{{--            <div class="container">--}}
 
-                <div class="section-title">
-                    <span>Руководители</span>
-                    <h2>Руководители</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                </div>
+{{--                <div class="section-title">--}}
+{{--                    <span>Руководители</span>--}}
+{{--                    <h2>Руководители</h2>--}}
+{{--                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--}}
+{{--                </div>--}}
 
-                <div class="owl-carousel testimonials-carousel">
+{{--                <div class="owl-carousel testimonials-carousel">--}}
 
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
-                    </div>
+{{--                    <div class="testimonial-item">--}}
+{{--                        <p>--}}
+{{--                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>--}}
+{{--                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.--}}
+{{--                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>--}}
+{{--                        </p>--}}
+{{--                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--}}
+{{--                        <h3>Saul Goodman</h3>--}}
+{{--                        <h4>Ceo &amp; Founder</h4>--}}
+{{--                    </div>--}}
 
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
-                    </div>
+{{--                    <div class="testimonial-item">--}}
+{{--                        <p>--}}
+{{--                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>--}}
+{{--                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.--}}
+{{--                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>--}}
+{{--                        </p>--}}
+{{--                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--}}
+{{--                        <h3>Sara Wilsson</h3>--}}
+{{--                        <h4>Designer</h4>--}}
+{{--                    </div>--}}
 
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
-                    </div>
+{{--                    <div class="testimonial-item">--}}
+{{--                        <p>--}}
+{{--                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>--}}
+{{--                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.--}}
+{{--                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>--}}
+{{--                        </p>--}}
+{{--                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">--}}
+{{--                        <h3>Jena Karlis</h3>--}}
+{{--                        <h4>Store Owner</h4>--}}
+{{--                    </div>--}}
 
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                    </div>
+{{--                    <div class="testimonial-item">--}}
+{{--                        <p>--}}
+{{--                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>--}}
+{{--                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.--}}
+{{--                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>--}}
+{{--                        </p>--}}
+{{--                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">--}}
+{{--                        <h3>Matt Brandon</h3>--}}
+{{--                        <h4>Freelancer</h4>--}}
+{{--                    </div>--}}
 
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                    </div>
+{{--                    <div class="testimonial-item">--}}
+{{--                        <p>--}}
+{{--                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>--}}
+{{--                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.--}}
+{{--                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>--}}
+{{--                        </p>--}}
+{{--                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">--}}
+{{--                        <h3>John Larson</h3>--}}
+{{--                        <h4>Entrepreneur</h4>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Testimonials Section -->
+{{--            </div>--}}
+{{--        </section>--}}
+        <!-- End Testimonials Section -->
 
         <!-- ======= Cta Section ======= -->
         <!-- <section id="cta" class="cta">
@@ -195,71 +204,72 @@
         <!-- End Cta Section -->
 
         <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
-            <div class="container">
+{{--        <section id="team" class="team section-bg">--}}
+{{--            <div class="container">--}}
 
-                <div class="section-title">
-                    <span>Руководители</span>
-                    <h2>Руководители</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                </div>
+{{--                <div class="section-title">--}}
+{{--                    <span>Руководители</span>--}}
+{{--                    <h2>Руководители</h2>--}}
+{{--                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--}}
+{{--                </div>--}}
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <img src="assets/img/team/team-1.jpg" alt="">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <p>
-                                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">--}}
+{{--                        <div class="member">--}}
+{{--                            <img src="assets/img/team/team-1.jpg" alt="">--}}
+{{--                            <h4>Walter White</h4>--}}
+{{--                            <span>Chief Executive Officer</span>--}}
+{{--                            <p>--}}
+{{--                                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut--}}
+{{--                            </p>--}}
+{{--                            <div class="social">--}}
+{{--                                <a href=""><i class="icofont-twitter"></i></a>--}}
+{{--                                <a href=""><i class="icofont-facebook"></i></a>--}}
+{{--                                <a href=""><i class="icofont-instagram"></i></a>--}}
+{{--                                <a href=""><i class="icofont-linkedin"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <img src="assets/img/team/team-2.jpg" alt="">
-                            <h4>Sarah Jhinson</h4>
-                            <span>Product Manager</span>
-                            <p>
-                                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">--}}
+{{--                        <div class="member">--}}
+{{--                            <img src="assets/img/team/team-2.jpg" alt="">--}}
+{{--                            <h4>Sarah Jhinson</h4>--}}
+{{--                            <span>Product Manager</span>--}}
+{{--                            <p>--}}
+{{--                                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus--}}
+{{--                            </p>--}}
+{{--                            <div class="social">--}}
+{{--                                <a href=""><i class="icofont-twitter"></i></a>--}}
+{{--                                <a href=""><i class="icofont-facebook"></i></a>--}}
+{{--                                <a href=""><i class="icofont-instagram"></i></a>--}}
+{{--                                <a href=""><i class="icofont-linkedin"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <img src="assets/img/team/team-3.jpg" alt="">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <p>
-                                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">--}}
+{{--                        <div class="member">--}}
+{{--                            <img src="assets/img/team/team-3.jpg" alt="">--}}
+{{--                            <h4>William Anderson</h4>--}}
+{{--                            <span>CTO</span>--}}
+{{--                            <p>--}}
+{{--                                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara--}}
+{{--                            </p>--}}
+{{--                            <div class="social">--}}
+{{--                                <a href=""><i class="icofont-twitter"></i></a>--}}
+{{--                                <a href=""><i class="icofont-facebook"></i></a>--}}
+{{--                                <a href=""><i class="icofont-instagram"></i></a>--}}
+{{--                                <a href=""><i class="icofont-linkedin"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Team Section -->
+{{--            </div>--}}
+{{--        </section>--}}
+        <!-- End Team Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
