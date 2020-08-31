@@ -12,3 +12,4 @@
 */
 
 $router->get('/', ['uses' => 'FrontController@index', 'as' => 'home']);
+$router->get('/management', ['uses' => 'FrontController@manager', 'as' => 'managers']);
