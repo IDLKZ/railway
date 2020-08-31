@@ -1366,3 +1366,16 @@ section {
     text-align-last: center;
   }
 }
+
+.docs{
+    min-height: 120px; background: rgba(244, 157, 68, 0.15); border-radius: 24px;
+}
+.docs-div-icon{
+    padding: 35px 0;
+}
+.docs-icon{
+    font-size: 50px;
+}
+.docs-text{
+    text-align: center; padding: 40px 0;
+}
