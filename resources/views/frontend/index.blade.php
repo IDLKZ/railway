@@ -303,27 +303,27 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="sendmail" method="post"  class="php-email-form">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Имя</label>
-                                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Как минимум 4 знака" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="name">Email</label>
-                                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Введите действующую почту" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Телефон</label>
-                                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Eroor" />
+                                <input type="text" class="form-control" name="phone" id="subject" data-rule="minlen:4" data-msg="Введите корректный телефон" />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Сообщение</label>
-                                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Пожалуйста напишите нам что-нибудь"></textarea>
                                 <div class="validate"></div>
                             </div>
                             <div class="mb-3">

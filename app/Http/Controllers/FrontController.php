@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+
+use Illuminate\Http\Request;
+
 class FrontController extends Controller
 {
     /**
@@ -19,6 +22,9 @@ class FrontController extends Controller
     }
     public function docs(){
         return view("frontend.docs");
+    }
+    public function sendmail(Request $request){
+        return "Успешно отправлено!";
     }
 
 }
