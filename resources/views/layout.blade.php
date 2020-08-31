@@ -109,7 +109,7 @@
             &copy; Copyright <strong><span>Имя компании</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Разработано веб-студией <a href="https://fb.com/dinmukhamed.tezekbayev">IDL</a>
+            Разработано веб-студией <a href="https://idl.kz">IDL</a>
         </div>
     </div>
 </footer><!-- End Footer -->
