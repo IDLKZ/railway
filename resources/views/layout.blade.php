@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Сайт 1</title>
+    <title>Вагонный сервис</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -82,7 +82,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-3 col-sm-12">
+                <div class="col-md-3 col-sm-12">
                     <svg width="152" height="102" viewBox="0 0 282 232" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 107C18 107 135 107 142 107C149 107 158.725 116.295 159.5 126L37 126C28.5 126 21.127 118.266 18 107Z" fill="#FEA33A"/>
                         <path d="M0 62.5002C0 62.5002 111 62.5 149 62.5002C187 62.5004 217 102.001 217 140.5V167.5H58.5C53.5 167.5 41.5 161.5 41.5 150H197.5C201.332 106.583 172 81.5002 149 81.5002H19C10.5 81.5002 3.12697 73.7659 0 62.5002Z" fill="#FEA33A"/>
@@ -92,7 +92,7 @@
                     <span style="font-family: Montserrat,serif;font-style: normal;font-size: 24px; color: white">Вагонный Сервис</span>
 
                 </div>
-                <div class="col-7 col-sm-12">
+                <div class="col-md-7 col-sm-12">
                     <div class="text-left text-white" style="font-size: 16px; padding-left: 80px">
                         <p>Телефон: +77172123456</p>
                         <p>e-mail: random@email.com</p>
@@ -100,7 +100,7 @@
                     </div>
 
                 </div>
-                <div class="col-2 col-sm-12">
+                <div class="col-md-2 col-sm-12">
                     <div class="social-links">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -108,7 +108,6 @@
                     </div>
                 </div>
             </div>
-
 
         </div>
     </div>
