@@ -11,5 +11,6 @@
 |
 */
 
-$router->get('/', 'FrontController@index');
-$router->get('/test', 'FrontController@test');
+$router->get('/', function () use ($router) {
+    return $router->app->version();
+});
