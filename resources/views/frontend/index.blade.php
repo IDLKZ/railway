@@ -4,7 +4,9 @@
 
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
-
+            @if (isset($success))
+                <div class="alert alert-success">{{$success}}</div>
+            @endif
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>О компании</h1>
@@ -168,10 +170,6 @@
 
 
 
-@if($_SESSION['success'] == 0)
-    <script>
-        alert('ok');
-    </script>
-@endif
+
 
 @stop

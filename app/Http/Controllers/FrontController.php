@@ -41,7 +41,8 @@ class FrontController extends Controller
             $message->to("idlkz2019@gmail.com","Заявка с сайта");
             $message->from('info@weplay.kz', "Заказчик: {$request->get('name')} \n Номер: {$request->get('phone')} \n Почта: {$request->get('email')} \n Сообщение: {$request->get('message')}")->subject('Заказ с сайта');
         });
-        return redirect(route('home'));
+        $success ="Успешно отправлено";
+        return view("frontend.index",compact("success"));
     }
 
 }
