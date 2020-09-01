@@ -20,7 +20,7 @@
                   <h3 class="docs-text" >Типовой договор по заявке на ремонт</h3>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.docx" download > <i class="icofont-file-word docs-icon" ></i></a>
+                  <a href="example.docx" download > <i class="icofont-file-word docs-icon" ></i><br>Скачать</a>
                </div>
 
 
@@ -35,7 +35,7 @@
                   <h3 class="docs-text" >Гарантийное письмо</h3>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.pdf" download > <i class="icofont-file-pdf docs-icon" ></i></a>
+                  <a href="example.pdf" download > <i class="icofont-file-pdf docs-icon" ></i><br>Скачать</a>
                </div>
 
 
@@ -50,7 +50,7 @@
                   <h3 class="docs-text" >Калькуляция</h3>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.docx" download> <i class="icofont-file-word docs-icon" ></i></a>
+                  <a href="example.docx" download> <i class="icofont-file-word docs-icon" ></i><br>Скачать</a>
                </div>
 
 
