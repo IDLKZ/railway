@@ -10,7 +10,7 @@
                     <h1>О компании</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore facere vel doloribus est ex alias sunt excepturi eum enim dolorum ea unde cumque, quam minima nulla dolore deleniti nam voluptate?</h2>
                     <div class="d-flex">
-                        <a href="#about" class="btn-get-started scrollto">Оставить заявку</a>
+                        <a href="{{route('home')}}#contact" class="btn-get-started scrollto">Оставить заявку</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -53,9 +53,24 @@
 
           </div>
         </section> -->
-        <!-- End Featured Services Section -->
 
-        <!-- ======= About Section ======= -->
+        <!-- End Featured Services Section -->
+        <div class="container d-none d-sm-block">
+            <div class="row">
+            <div class="col-md-4 col-sm-12 offset-md-8 mt-5" style="min-height: 80px; border: 1px solid #F49D44; border-radius: 20px; ">
+                    <div class="row" >
+                        <div class="col-md-2 col-sm-2 d-flex justify-content-center align-content-center" style="min-height: 50px; padding: 15px 0">
+                            <i class="icofont-phone" style="font-size: 50px; color: #F49D44"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10" style="min-height: 50px;">
+                            <p style="margin-top: 15px">Есть вопросы?<br>
+                                Позвоните нашему оператору!</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+
         <section id="about" class="about">
             <div class="container">
 
@@ -303,7 +318,7 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="sendmail" method="post"  class="php-email-form">
+                        <form action="sendmail" method="post"  >
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Имя</label>
