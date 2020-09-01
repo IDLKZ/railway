@@ -318,7 +318,8 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="sendmail" method="post"  >
+                        <form action="sendmail" method="post" class="contact-send">
+
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Имя</label>
@@ -341,12 +342,7 @@
                                 <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Пожалуйста напишите нам что-нибудь"></textarea>
                                 <div class="validate"></div>
                             </div>
-                            <div class="mb-3">
-                                <div class="loading">Загрузка</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Ваше сообщение было отправлено!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Отправить</button></div>
+                            <div class="text-center"><button class="btn btn-warning" type="submit">Отправить</button></div>
                         </form>
                     </div>
 

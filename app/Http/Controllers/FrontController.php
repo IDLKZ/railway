@@ -25,6 +25,13 @@ class FrontController extends Controller
         return view("frontend.docs");
     }
     public function sendmail(Request $request){
+        $this->validate($request, [
+            'name' => 'required',
+            'phone' => 'required|numeric',
+            'email' => 'email',
+            'message' => 'nullable'
+        ]);
+
         $_SESSION['name'] = $request->get('name');
         $_SESSION['phone'] = $request->get('phone');
         $_SESSION['email'] = $request->get('email');
