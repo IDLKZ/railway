@@ -70,7 +70,7 @@
                 <div class="section-title">
                     <span>Контакты</span>
                     <h2>Контакты</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+                    <p>У вас остались вопросы и предложения, заполните форму и мы свяжемся с Вами в ближайшее время!</p>
                 </div>
 
                 <div class="row">
