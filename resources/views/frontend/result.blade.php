@@ -12,19 +12,25 @@
             </div>
 
             <div class="container">
-                <div class="container d-none d-sm-block" style="min-height: 400px">
-                    <div class="alert alert-success text-center justify-content-center">
-                        <h3>Успешно отправлено!</h3>
-                        <a class="btn btn-info" href="{{route("home")}}">Домой</a>
+                <div class="row mt-4 ">
+                    <div class="col-md-12 col-sm-12 alert alert-success">
+                        <h3 class="docs-text" >Успешно отправлено</h3>
                     </div>
+                    <div class="col-md-12 col-sm-12 text-center">
+                       <a class="btn btn-info" href="{{route("home")}}">Домой</a>
+                    </div>
+
+
+
                 </div>
+
 
 
 
             </div>
 
         </div>
-    </section><!-- End Testimonials Section -->
+    </section>
 
 
 
