@@ -32,7 +32,16 @@ Highcharts.mapChart('container', {
         }
     },
     tooltip: {
-        enabled: false
+        enabled: true,
+        formatter: function (){
+
+            if(this.point.name == "Павлодар"){
+                return "<p>"+ this.point.name+ "</p>" + "<b>Экибастуз-2</b>*<br>" + "Механизированный пункт подготовки вагонов<br>" + "<b>Экибастуз-2</b><br>" + "Текущий отцепочный ремонт ТОР-1<br>" + "<b>Экибастуз-2</b><br>" + "Текущий отцепочный ремонт ТОР-2<br>" + "<b>Павлодар</b><br>" + "Механизированный пункт ремонта вагонов";
+            }
+            return this.point.name
+
+        }
+
     },
 
     plotOptions: {
@@ -87,7 +96,7 @@ Highcharts.mapChart('container', {
 
     series: [{
         data: data,
-        color: "#D9D9D9",
+        color: "#FDE0C0",
         name: "",
         states: {
             hover: {

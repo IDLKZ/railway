@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
 
 class FrontController extends Controller
 {
@@ -25,12 +26,16 @@ class FrontController extends Controller
         return view("frontend.docs");
     }
     public function sendmail(Request $request){
-        $this->validate($request, [
+        $v = Validator::make($request->all(), [
             'name' => 'required',
             'phone' => 'required|numeric',
             'email' => 'email',
             'message' => 'nullable'
         ]);
+        if ($v->fails())
+        {
+            return redirect(route('home'))->with('fail', 'Заполните все поля!');
+        }
 
         $_SESSION['name'] = $request->get('name');
         $_SESSION['phone'] = $request->get('phone');
