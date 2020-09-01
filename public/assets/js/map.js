@@ -23,6 +23,9 @@ Highcharts.mapChart('container', {
     chart: {
         map: 'countries/kz/kz-all',
     },
+    exporting: {
+        enabled: false
+    },
 
     title: {
         text: 'Карта Казахстана',
@@ -84,7 +87,7 @@ Highcharts.mapChart('container', {
 
 
     mapNavigation: {
-        enabled: true,
+        enabled: false,
         buttonOptions: {
             verticalAlign: 'bottom'
         }
@@ -109,7 +112,8 @@ Highcharts.mapChart('container', {
             enabled: true,
             format:"{point.name}"
 
-        }
+        },
+
     }]
 });
 
