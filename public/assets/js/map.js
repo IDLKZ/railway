@@ -27,7 +27,7 @@ Highcharts.mapChart('container', {
     title: {
         text: 'Карта Казахстана',
         style: {
-            fontSize:"22px",
+            fontSize:"30px",
             fontWeight: 'bold'
         }
     },
