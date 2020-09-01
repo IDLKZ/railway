@@ -103,3 +103,5 @@ Highcharts.mapChart('container', {
         }
     }]
 });
+
+$(".highcharts-credits").css({"display":"none"})
