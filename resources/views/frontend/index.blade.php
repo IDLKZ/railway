@@ -25,38 +25,7 @@
 
     <main id="main">
 
-        <!-- ======= Featured Services Section ======= -->
-        <!-- <section id="featured-services" class="featured-services">
-          <div class="container">
 
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <div class="icon-box">
-                  <div class="icon"><i class="icofont-computer"></i></div>
-                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                  <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                <div class="icon-box">
-                  <div class="icon"><i class="icofont-image"></i></div>
-                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                  <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                <div class="icon-box">
-                  <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                  <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                  <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> -->
-
-        <!-- End Featured Services Section -->
         <div class="container d-none d-sm-block">
             <div class="row">
             <div class="col-md-4 col-sm-12 offset-md-8 mt-5" style="min-height: 80px; border: 1px solid #F49D44; border-radius: 20px; ">
@@ -80,14 +49,7 @@
                     <div class="col-lg-12">
                         <div id="container"></div>
                     </div>
-                    <div class="office"></div>
-{{--                    <div class="col-lg-4 pt-4 pt-lg-0 content">--}}
-{{--                        <h3 class="city"></h3>--}}
-{{--                        <p class="font-italic">--}}
-{{--                        <hr>--}}
-{{--                        <span class="office"></span>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
+
                 </div>
                 <figure>
                     <div style="overflow: auto">
