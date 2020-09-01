@@ -27,19 +27,21 @@ class FrontController extends Controller
     }
     public function sendmail(Request $request){
         $v = Validator::make($request->all(), [
+            'company' => 'required',
             'name' => 'required',
             'phone' => 'required|numeric',
             'email' => 'email',
             'message' => 'nullable'
         ]);
 
+        $_SESSION['company'] = $request->get('company');
         $_SESSION['name'] = $request->get('name');
         $_SESSION['phone'] = $request->get('phone');
         $_SESSION['email'] = $request->get('email');
         $_SESSION['message'] = $request->get('message');
         Mail::send("mail.mail",["title"=>"Заявка с сайта"],function ($message) use ($request){
             $message->to("idlkz2019@gmail.com","Заявка с сайта");
-            $message->from('info@weplay.kz', "Заказчик: {$request->get('name')} \n Номер: {$request->get('phone')} \n Почта: {$request->get('email')} \n Сообщение: {$request->get('message')}")->subject('Заказ с сайта');
+            $message->from('info@weplay.kz', "Заказчик: {$request->get('name')} \n Номер: {$request->get('phone')} \n Почта: {$request->get('email')} \n Компания: {$request->get('company')}")->subject('Заказ с сайта');
         });
 
         return view("frontend.result");

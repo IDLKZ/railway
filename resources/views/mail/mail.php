@@ -12,6 +12,7 @@
 <table style="border: 1px solid #ddd; border-collapse: collapse; width: 100%;">
     <thead>
     <tr style="background: #f9f9f9;">
+        <th style="padding: 8px; border: 1px solid #ddd;">Компания</th>
         <th style="padding: 8px; border: 1px solid #ddd;">Имя</th>
         <th style="padding: 8px; border: 1px solid #ddd;">Телефон</th>
         <th style="padding: 8px; border: 1px solid #ddd;">Почта</th>
@@ -21,6 +22,7 @@
     <tbody>
 
     <tr>
+        <td style="padding: 8px; border: 1px solid #ddd;"><?=$_SESSION['company']?></td>
         <td style="padding: 8px; border: 1px solid #ddd;"><?=$_SESSION['name']?></td>
         <td style="padding: 8px; border: 1px solid #ddd;"><?= $_SESSION['phone'] ?></td>
         <td style="padding: 8px; border: 1px solid #ddd;"><?= $_SESSION['email']?></td>

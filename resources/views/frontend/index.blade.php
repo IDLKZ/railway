@@ -99,25 +99,27 @@
 
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="name">Имя</label>
-                                    <input type="text" name="name" required class="form-control" id="name" data-rule="minlen:4" data-msg="Как минимум 4 знака" />
-                                    <div class="validate"></div>
+                                    <label for="company">Компания</label>
+                                    <input type="text" class="form-control" required name="company" id="company" />
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="name">Email</label>
-                                    <input type="email" class="form-control" required name="email" id="email" data-rule="email" data-msg="Введите действующую почту" />
-                                    <div class="validate"></div>
+                                    <label for="name">ФИО</label>
+                                    <input type="text" name="name" required class="form-control" id="name" />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="subject">Телефон</label>
+                                    <input type="text" class="form-control" required name="phone" id="subject" />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" required name="email" id="email" />
                                 </div>
                             </div>
+                            
                             <div class="form-group">
-                                <label for="name">Телефон</label>
-                                <input type="text" class="form-control" required name="phone" id="subject" data-rule="minlen:4" data-msg="Введите корректный телефон" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Сообщение</label>
-                                <textarea class="form-control" id="message" name="message" rows="10" data-rule="required" data-msg="Пожалуйста напишите нам что-нибудь"></textarea>
-                                <div class="validate"></div>
+                                <label for="message">Сообщение</label>
+                                <textarea class="form-control" id="message" name="message" rows="10" ></textarea>
+
                             </div>
                             <div class="text-center"><button id="button" class="btn btn-warning" type="submit">Отправить</button></div>
                         </form>
