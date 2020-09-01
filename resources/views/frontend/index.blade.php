@@ -108,14 +108,14 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="subject">Телефон</label>
-                                    <input type="text" class="form-control" required name="phone" id="subject" />
+                                    <input data-inputmask="'mask': '8(799)-999-99-99'" type="text" class="form-control" required name="phone" id="subject" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Email</label>
                                     <input type="email" class="form-control" required name="email" id="email" />
                                 </div>
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="message">Сообщение</label>
                                 <textarea class="form-control" id="message" name="message" rows="10" ></textarea>

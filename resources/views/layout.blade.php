@@ -145,6 +145,8 @@
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script src="/assets/js/map.js"></script>
+<script src="/assets/js/jquery.inputmask.min.js"></script>
+<script src="/assets/js/inputmask.binding.js"></script>
 
 </body>
 
