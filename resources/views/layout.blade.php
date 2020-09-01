@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="text-left text-white" style="font-size: 16px; padding-left: 80px">
-                        <p>Телефон: +77172123456</p>
+                        <p>Телефон: +7 778 995 9862</p>
                         <p>e-mail: random@email.com</p>
                         <p>Адрес: г. Нур-Султан, улица Кунаева 10, 15 этаж</p>
                     </div>
