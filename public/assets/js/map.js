@@ -114,3 +114,16 @@ Highcharts.mapChart('container', {
 });
 
 $(".highcharts-credits").css({"display":"none"})
+
+
+
+$("#button").click(function (event){
+    if($("#name").val() == "" || $("#email").val() == "" || $("#subject").val() == "" || $("#message").val() == ""){
+        {
+            event.preventDefault();
+            alert("Заполните все поля!");
+        }
+    }
+
+
+})

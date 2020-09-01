@@ -3,8 +3,8 @@
 @section("content")
 
     <section id="hero" class="d-flex align-items-center">
-
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>О компании</h1>
@@ -152,10 +152,10 @@
                             </div>
                             <div class="form-group">
                                 <label for="name">Сообщение</label>
-                                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Пожалуйста напишите нам что-нибудь"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="10" data-rule="required" data-msg="Пожалуйста напишите нам что-нибудь"></textarea>
                                 <div class="validate"></div>
                             </div>
-                            <div class="text-center"><button class="btn btn-warning" type="submit">Отправить</button></div>
+                            <div class="text-center"><button id="button" class="btn btn-warning" type="submit">Отправить</button></div>
                         </form>
                     </div>
 
@@ -168,5 +168,10 @@
 
 
 
+@if($_SESSION['success'] == 0)
+    <script>
+        alert('ok');
+    </script>
+@endif
 
 @stop

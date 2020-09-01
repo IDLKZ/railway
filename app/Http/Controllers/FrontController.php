@@ -32,10 +32,6 @@ class FrontController extends Controller
             'email' => 'email',
             'message' => 'nullable'
         ]);
-        if ($v->fails())
-        {
-            return redirect(route('home'))->with('fail', 'Заполните все поля!');
-        }
 
         $_SESSION['name'] = $request->get('name');
         $_SESSION['phone'] = $request->get('phone');
@@ -45,7 +41,7 @@ class FrontController extends Controller
             $message->to("idlkz2019@gmail.com","Заявка с сайта");
             $message->from('info@weplay.kz', "Заказчик: {$request->get('name')} \n Номер: {$request->get('phone')} \n Почта: {$request->get('email')} \n Сообщение: {$request->get('message')}")->subject('Заказ с сайта');
         });
-        return "Успешно отправлено!";
+        return redirect(route('home'));
     }
 
 }

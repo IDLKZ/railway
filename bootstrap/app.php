@@ -76,7 +76,7 @@ $app->configure('app');
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
 
-
+//$app->register('Sarahman\Flash\FlashServiceProvider');
 
 // $app->middleware([
 //     App\Http\Middleware\ExampleMiddleware::class
