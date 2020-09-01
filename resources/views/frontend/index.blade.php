@@ -77,7 +77,7 @@
                     </div>
                 </figure>
                 <div class="text-center">
-                    <a href="javascript:void(0)" class="btn" style="background-color: #F49D44">Оставить заявку</a>
+                    <a href="{{route('home')}}#contact" class="btn" style="background-color: #F49D44">Оставить заявку</a>
                 </div>
 
             </div>
