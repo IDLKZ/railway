@@ -25,11 +25,16 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: 'Где мы работаем'
+        text: 'Карта Казахстана',
+        style: {
+            fontSize:"22px",
+            fontWeight: 'bold'
+        }
     },
     tooltip: {
         enabled: false
     },
+
     plotOptions: {
         series: {
             point: {
@@ -56,12 +61,13 @@ Highcharts.mapChart('container', {
                         $(".city").html(cities[this.x])
                         $(".office").html(title)
 
-                    }
+                    },
+                    renderTo:function (){alert("hello")}
                 }
             },
             events: {
                 mouseOut: function () {
-                    console.log("bye!")
+
                 }
             }
         }
@@ -90,8 +96,9 @@ Highcharts.mapChart('container', {
             }
         },
         dataLabels: {
-            enabled: false,
-            format: ""
+
+            enabled: true,
+            format:"{point.name}"
 
         }
     }]
