@@ -100,18 +100,18 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Имя</label>
-                                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Как минимум 4 знака" />
+                                    <input type="text" name="name" required class="form-control" id="name" data-rule="minlen:4" data-msg="Как минимум 4 знака" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="name">Email</label>
-                                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Введите действующую почту" />
+                                    <input type="email" class="form-control" required name="email" id="email" data-rule="email" data-msg="Введите действующую почту" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Телефон</label>
-                                <input type="text" class="form-control" name="phone" id="subject" data-rule="minlen:4" data-msg="Введите корректный телефон" />
+                                <input type="text" class="form-control" required name="phone" id="subject" data-rule="minlen:4" data-msg="Введите корректный телефон" />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
