@@ -7,8 +7,8 @@
             @if (isset($success))
                 <div class="alert alert-success">{{$success}}</div>
             @endif
-            <div class="row mt-3">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <div class="row mt-3 about-us">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center about-us1">
                     <h1>О компании</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore facere vel doloribus est ex alias sunt excepturi eum enim dolorum ea unde cumque, quam minima nulla dolore deleniti nam voluptate?</h2>
                     <div class="d-flex">
