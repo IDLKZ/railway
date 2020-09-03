@@ -1409,6 +1409,9 @@ section {
     .section-title h2{
         font-size: 17px;
     }
+    .mr-auto img{
+        width: 80px;
+    }
 
 }
 @media (min-width: 400px) and (max-width: 520px) {
@@ -1417,6 +1420,9 @@ section {
     }
     .section-title h2{
         font-size: 22px;
+    }
+    .mr-auto img{
+        width: 80px;
     }
 }
 @media (min-width: 520px) and (max-width: 850px) {
