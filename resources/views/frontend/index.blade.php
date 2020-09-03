@@ -38,20 +38,22 @@
         <div class="container d-none d-sm-block">
             <div class="row">
             <div class="col-md-4 col-sm-12 offset-md-8 mt-5" style="min-height: 80px; border: 1px solid #F49D44; border-radius: 20px; ">
+                <a href="tel:87789959862">
                     <div class="row" >
-                        <div class="col-md-2 col-sm-2 d-flex justify-content-center align-content-center" style="min-height: 50px; padding: 15px 0">
-                            <i class="icofont-phone" style="font-size: 50px; color: #F49D44"></i>
-                        </div>
-                        <div class="col-md-10 col-sm-10" style="min-height: 50px;">
-                            <p style="margin-top: 15px">Есть вопросы?<br>
-                                Позвоните нашему оператору!</p>
-                        </div>
+                            <div class="col-md-2 col-sm-2 d-flex justify-content-center align-content-center" style="min-height: 50px; padding: 15px 0">
+                                <i class="icofont-phone" style="font-size: 50px; color: #F49D44"></i>
+                            </div>
+                            <div class="col-md-10 col-sm-10" style="min-height: 50px;">
+                                <p style="margin-top: 15px">Есть вопросы?<br>
+                                    Позвоните нашему оператору!</p>
+                            </div>
                     </div>
+                </a>
             </div>
         </div>
         </div>
 
-        <section id="about" class="about">
+        <section style="padding: 20px 0" id="about" class="about">
             <div class="container">
                 <div class="section-title">
                     <span>Карта Казахстана</span>
@@ -68,7 +70,7 @@
 
             </div>
         </section><!-- End About Section -->
-        <section>
+        <section style="padding: 20px 0">
             <div class="container">
                 <div class="section-title">
                     <span>Алгоритм сотрудничества</span>
@@ -615,7 +617,7 @@
         </section>
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <section style="padding: 20px 0" id="contact" class="contact">
             <div class="container">
 
                 <div class="section-title">
