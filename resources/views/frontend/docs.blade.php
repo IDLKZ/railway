@@ -20,7 +20,11 @@
                   <h4 class="docs-text" >Типовой договор по заявке на ремонт</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.docx" download > <i class="icofont-file-word docs-icon" ></i><br>Скачать</a>
+                   <div class="row justify-content-center">
+                       <a class="mr-3 text-dark" href="example.docx" download > <i style="color: blue" class="icofont-file-word docs-icon" ></i><br>Скачать</a>
+                       <a class="text-dark" href="example.docx" download > <i style="color: red" class="icofont-file-pdf docs-icon" ></i><br>Скачать</a>
+                   </div>
+
                </div>
 
 
@@ -35,7 +39,10 @@
                   <h4 class="docs-text" >Гарантийное письмо</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.pdf" download > <i class="icofont-file-pdf docs-icon" ></i><br>Скачать</a>
+                   <div class="row justify-content-center">
+                       <a class="mr-3 text-dark" href="example.docx" download > <i style="color: blue" class="icofont-file-word docs-icon" ></i><br>Скачать</a>
+                       <a class="text-dark" href="example.docx" download > <i style="color: red" class="icofont-file-pdf docs-icon" ></i><br>Скачать</a>
+                   </div>
                </div>
 
 
@@ -50,7 +57,10 @@
                   <h4 class="docs-text" >Калькуляция</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
-                  <a href="example.docx" download> <i class="icofont-file-word docs-icon" ></i><br>Скачать</a>
+                   <div class="row justify-content-center">
+                       <a class="mr-3 text-dark" href="example.docx" download > <i style="color: blue" class="icofont-file-word docs-icon" ></i><br>Скачать</a>
+                       <a class="text-dark" href="example.docx" download > <i style="color: red" class="icofont-file-pdf docs-icon" ></i><br>Скачать</a>
+                   </div>
                </div>
 
 
