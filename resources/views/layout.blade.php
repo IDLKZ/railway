@@ -470,9 +470,9 @@
                 </div>
                 <div class="col-md-2 col-sm-12">
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+{{--                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>--}}
+{{--                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>--}}
+{{--                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>--}}
                     </div>
                 </div>
             </div>
