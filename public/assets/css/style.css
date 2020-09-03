@@ -1379,3 +1379,9 @@ section {
 .docs-text{
     text-align: center; padding: 25px 0;
 }
+.slider-img{
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom: solid 5px #FEA33A;
+    border-left: solid 5px #FEA33A;
+}

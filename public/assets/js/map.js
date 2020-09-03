@@ -131,3 +131,11 @@ $("#button").click(function (event){
 
 
 })
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    autoWidth:false,
+    items:1,
+    autoHeight: false,
+    singleItem:true
+
+})

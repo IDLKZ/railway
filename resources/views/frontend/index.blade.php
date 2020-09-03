@@ -15,9 +15,18 @@
                         <a href="{{route('home')}}#contact" class="btn-get-started scrollto">Оставить заявку</a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                    <img src="assets/img/wagon.png" class="img-fluid animated" alt="">
+                <div class="col-lg-6 order-1 order-lg-2 owl-carousel testimonials-slider">
+                    <div class="item">
+                        <img class="img-fluid testimonial-img slider-img" src="assets/img/wagon.png" >
+                    </div>
+                    <div class="item ">
+                        <img class="img-fluid testimonial-img slider-img" src="assets/img/wagon1.png">
+                    </div>
+
+
+
                 </div>
+
             </div>
         </div>
 
