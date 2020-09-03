@@ -641,8 +641,7 @@
                                 <h4>Номер:</h4>
                                 <p>+7 778 995 9862</p>
                             </div>
-
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5002.595122783754!2d71.41172972814535!3d51.17673831832839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4245872c6d6a0ebb%3A0x5592bf93f36c3571!2z0L_RgNC-0YHQvy4g0JHQvtCz0LXQvdCx0LDQuSDQsdCw0YLRi9GA0LAgNDMsINCd0YPRgC3QodGD0LvRgtCw0L0gMDEwMDAw!3m2!1d51.1767384!2d71.41610709999999!5e0!3m2!1sru!2skz!4v1599144593103!5m2!1sru!2skz"  frameborder="0" style="border:0; width: 100%; height: 290px;" aria-hidden="false" tabindex="0"></iframe>
                         </div>
 
                     </div>
