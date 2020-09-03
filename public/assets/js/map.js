@@ -138,6 +138,7 @@ $('.owl-carousel').owlCarousel({
     autoHeight: false,
     singleItem:true,
     autoplay: true,
-    autoplayTimeout: 2000
+    autoplayTimeout: 3500,
+    smartSpeed: 650
 
 })

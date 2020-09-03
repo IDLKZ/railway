@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #206bfb;
+  color: #E8450C;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #206bfb;
+  background: #E8450C;
   color: #fff;
 }
 
@@ -376,8 +376,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  background: #E8450C;
+  box-shadow: 0 8px 28px rgb(239, 180, 109);
 }
 
 #hero .btn-watch-video {
