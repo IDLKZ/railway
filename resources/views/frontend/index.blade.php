@@ -7,7 +7,7 @@
             @if (isset($success))
                 <div class="alert alert-success">{{$success}}</div>
             @endif
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>О компании</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore facere vel doloribus est ex alias sunt excepturi eum enim dolorum ea unde cumque, quam minima nulla dolore deleniti nam voluptate?</h2>
@@ -53,7 +53,10 @@
 
         <section id="about" class="about">
             <div class="container">
-
+                <div class="section-title">
+                    <span>Карта Казахстана</span>
+                    <h2>Карта Казахстана</h2>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <div id="container"></div>
@@ -67,7 +70,11 @@
         </section><!-- End About Section -->
         <section>
             <div class="container">
-                <h2 style="font-family: Montserrat; font-style: normal; font-weight: bold">Алгоритм сотрудничества</h2>
+                <div class="section-title">
+                    <span>Алгоритм сотрудничества</span>
+                    <h2>Алгоритм сотрудничества</h2>
+                </div>
+
                 <div class="row">
                     <div class="col-md-6 col-lg-6 d-none d-md-block d-lg-block text-center">
                         <svg style="width: 100%" height="289" viewBox="0 0 401 289" fill="none" xmlns="http://www.w3.org/2000/svg">

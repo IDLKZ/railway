@@ -28,7 +28,7 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: 'Карта Казахстана',
+        text: '',
         style: {
             fontSize:"30px",
             fontWeight: 'bold'
@@ -132,10 +132,12 @@ $("#button").click(function (event){
 
 })
 $('.owl-carousel').owlCarousel({
-    loop:false,
+    loop:true,
     autoWidth:false,
     items:1,
     autoHeight: false,
-    singleItem:true
+    singleItem:true,
+    autoplay: true,
+    autoplayTimeout: 2000
 
 })
