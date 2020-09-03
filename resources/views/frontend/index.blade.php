@@ -587,12 +587,13 @@
                 </div>
 
                 <div class="row mt-3">
-                    <div class="col-sm-12 d-md-none d-lg-none d-sm-block text-center">
-                        <img src="/assets/img/step-2-text.png" style="width: 100%" alt="">
-                    </div>
                     <div class="col-sm-12 d-md-none d-lg-none d-sm-block">
                         <img src="/assets/img/step.png" style="width: 100%" alt="">
                     </div>
+                    <div class="col-sm-12 d-md-none d-lg-none d-sm-block text-center">
+                        <img src="/assets/img/step-2-text.png" style="width: 100%" alt="">
+                    </div>
+
                 </div>
 
                 <div class="row">
