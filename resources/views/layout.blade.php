@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -54,7 +55,7 @@
 
         <h1 class="logo mr-auto">
             <a href="{{route('home')}}" style="font-size: 14px">
-                <img src="/assets/img/logo.png" width="80" height="37" alt="logo">
+                <img src="assets/img/logo.png" width="80" height="37" alt="logo">
 
                 Вагонный Сервис
             </a>
@@ -87,7 +88,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-sm-12">
-                    <img src="/assets/img/logo.png" width="152" height="102" alt="logo">
+                    <img src="assets/img/logo.png" width="152" height="102" alt="logo">
 
                     <br>
                     <span style="font-family: Montserrat,serif;font-style: normal;font-size: 24px; color: white">Вагонный Сервис</span>
