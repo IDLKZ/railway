@@ -1385,21 +1385,40 @@ section {
     border-bottom: solid 5px #FEA33A;
     border-left: solid 5px #FEA33A;
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .owl-stage-outer{
-        padding-top: 80px;
+        padding-top: 120px;
     }
     .about-us{
-        margin-top: 0!important;
+        margin-top: 0px!important;
+        margin-bottom: 15px;
     }
     .about-us1{
-        padding-top: 0!important;
+        padding-top: 0px!important;
+        padding-bottom: 15px;
     }
     #hero h2{
         font-size:16px ;
     }
     .mobile-nav-toggle{
         right: 5px;
+    }
+
+}
+@media (max-width: 520px) {
+    .section-title span{
+        font-size: 18.5px;
+    }
+    .section-title h2{
+        font-size: 18px;
+    }
+}
+@media (max-width: 850px) {
+    .section-title span{
+        font-size: 24px;
+    }
+    .section-title h2{
+        font-size: 22px;
     }
 }
 
