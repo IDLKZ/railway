@@ -32,7 +32,7 @@ class FrontController extends Controller
         $_SESSION['email'] = $request->get('email');
         $_SESSION['message'] = $request->get('message');
         Mail::send("mail.mail",["title"=>"Заявка с сайта"],function ($message) use ($request){
-            $message->to("idlkz2019@gmail.com","Заявка с сайта");
+            $message->to("adaynygmanov@gmail.com","Заявка с сайта");
             $message->from('info@weplay.kz', "Заказчик: {$request->get('name')} \n Номер: {$request->get('phone')} \n Почта: {$request->get('email')} \n Компания: {$request->get('company')}")->subject('Заказ с сайта');
         });
 

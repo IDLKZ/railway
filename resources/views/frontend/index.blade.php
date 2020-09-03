@@ -668,7 +668,7 @@
                                 <textarea class="form-control" id="message" name="message" rows="10" ></textarea>
 
                             </div>
-                            <div class="text-center"><button id="button" class="btn btn-warning" type="submit">Отправить</button></div>
+                            <div class="text-center"><button style="background-color: #F49D44;" id="button" class="btn btn-warning" type="submit">Отправить</button></div>
                         </form>
                     </div>
 
