@@ -1405,15 +1405,15 @@ section {
     }
 
 }
-@media (max-width: 520px) {
+@media (min-width: 360px) and (max-width: 520px) {
     .section-title span{
-        font-size: 18.5px;
-    }
-    .section-title h2{
         font-size: 18px;
     }
+    .section-title h2{
+        font-size: 17px;
+    }
 }
-@media (max-width: 850px) {
+@media (min-width: 520px) and (max-width: 850px) {
     .section-title span{
         font-size: 24px;
     }
