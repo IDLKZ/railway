@@ -1412,6 +1412,9 @@ section {
     .mr-auto img{
         width: 80px;
     }
+    #container{
+        height: auto!important;
+    }
 
 }
 @media (min-width: 400px) and (max-width: 520px) {
@@ -1423,6 +1426,9 @@ section {
     }
     .mr-auto img{
         width: 80px;
+    }
+    #container{
+        height: auto!important;
     }
 }
 @media (min-width: 520px) and (max-width: 850px) {

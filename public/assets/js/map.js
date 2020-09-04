@@ -22,18 +22,14 @@ var data = [
 Highcharts.mapChart('container', {
     chart: {
         map: 'countries/kz/kz-all',
+        height:250
     },
     exporting: {
         enabled: false
     },
 
-    title: {
-        text: '',
-        style: {
-            fontSize:"30px",
-            fontWeight: 'bold'
-        }
-    },
+    title: false,
+    styledMode: true,
     tooltip: {
         enabled: true,
         formatter: function (){
