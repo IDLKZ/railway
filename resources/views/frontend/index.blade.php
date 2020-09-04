@@ -611,7 +611,7 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="{{route('home')}}#contact" class="btn btn-get-started" style="background-color: #F49D44">Оставить заявку</a>
+                    <a href="{{route('home')}}#contact" class="btn btn-get-started2" style="background-color: #F49D44">Оставить заявку</a>
                 </div>
             </div>
         </section>
