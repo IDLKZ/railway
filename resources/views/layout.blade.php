@@ -87,7 +87,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-3 col-sm-12">
+                <div class="col-md-3 col-sm-12 pt-4">
                     <svg width="172" height="112" viewBox="0 0 452 317" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M452 158.5C452 246.037 380.589 317 292.5 317C240.977 317 195.16 292.724 166 255.053H197.161C221.719 279.002 255.374 293.772 292.5 293.772C367.68 293.772 428.625 233.208 428.625 158.5C428.625 83.7916 367.68 23.2284 292.5 23.2284C255.374 23.2284 221.719 37.9979 197.161 61.9467H166C195.16 24.2765 240.977 0 292.5 0C380.589 0 452 70.9629 452 158.5Z" fill="white"/>
                         <path d="M452 158.5C452 246.037 380.589 317 292.5 317C240.977 317 195.16 292.724 166 255.053H197.161C221.719 279.002 255.374 293.772 292.5 293.772C367.68 293.772 428.625 233.208 428.625 158.5C428.625 83.7916 367.68 23.2284 292.5 23.2284C255.374 23.2284 221.719 37.9979 197.161 61.9467H166C195.16 24.2765 240.977 0 292.5 0C380.589 0 452 70.9629 452 158.5Z" fill="#FEA33A"/>
@@ -157,15 +157,15 @@
 
                 </div>
 
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-4 col-sm-12">
                     <div class="social-links">
 {{--                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>--}}
 {{--                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>--}}
 {{--                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>--}}
                     </div>
                 </div>
-                <div class="col-md-7 col-sm-12">
-                    <div class="text-left text-white" style="font-size: 16px; padding-left: 80px">
+                <div class="col-md-5 col-sm-12 pr-0 pl-5">
+                    <div class="text-left text-white" style="font-size: 16px; padding-left: 40px">
                         <p><i class="docs-icon icofont-phone mr-2" style="font-size: 28px"></i>
                             +7 778 995 9862</p>
                         <p><i class="docs-icon icofont-envelope mr-2" style="font-size: 28px"></i>
