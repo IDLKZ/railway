@@ -153,7 +153,7 @@
 
 
                     <br>
-                    <h1 style="font-size: 16px; font-weight: 700; letter-spacing: 0.5px; color: white">Вагонный Сервис</h1>
+                    <h1 style="font-size: 16px; font-weight: 700; letter-spacing: 0.5px; color: white; margin-top: 15px">Вагонный Сервис</h1>
 
                 </div>
                 <div class="col-md-7 col-sm-12">
