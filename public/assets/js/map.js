@@ -138,3 +138,4 @@ $('.owl-carousel').owlCarousel({
     smartSpeed: 650
 
 })
+

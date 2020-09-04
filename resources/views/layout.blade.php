@@ -63,6 +63,7 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
+
                 <li class="active"><a href="{{route('home')}}">О компании</a></li>
                 <li><a href="{{route('home')}}#about">Ремонт по заявкам</a></li>
                 <li><a href="{{route("managers")}}">Руководство</a></li>
@@ -152,7 +153,7 @@
 
 
                     <br>
-                    <span style="font-family: Montserrat;font-style: normal;font-size: 24px; color: white">Вагонный Сервис</span>
+                    <span style="font-family: Railway;font-size: 24px; color: white">Вагонный Сервис</span>
 
                 </div>
                 <div class="col-md-7 col-sm-12">
@@ -177,7 +178,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>Вагонный сервис</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span >Вагонный сервис</span></strong>. All Rights Reserved
         </div>
 {{--        <div class="credits">--}}
 {{--            Разработано веб-студией <a href="https://idl.kz">IDL</a>--}}
@@ -203,7 +204,6 @@
 <script src="/assets/js/map.js"></script>
 <script src="/assets/js/jquery.inputmask.min.js"></script>
 <script src="/assets/js/inputmask.binding.js"></script>
-
 </body>
 
 </html>
