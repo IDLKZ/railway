@@ -55,7 +55,7 @@
 
         <h1 class="logo mr-auto">
             <a href="{{route('home')}}" style="font-size: 14px">
-                <img src="assets/img/logo-header.png" width="100" height="67" alt="">
+                <img src="assets/img/logo-header.png" width="80" height="67" alt="">
                 Вагонный Сервис
             </a>
         </h1>
@@ -153,7 +153,7 @@
 
 
                     <br>
-                    <span style="font-family: Railway;font-size: 24px; color: white">Вагонный Сервис</span>
+                    <span style="font-family: Railway;font-size: 20px; font-weight: bold; color: white">Вагонный Сервис</span>
 
                 </div>
                 <div class="col-md-7 col-sm-12">
