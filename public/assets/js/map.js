@@ -22,7 +22,8 @@ var data = [
 Highcharts.mapChart('container', {
     chart: {
         map: 'countries/kz/kz-all',
-        height:250
+        height:'55%',
+        responsive:true
     },
     exporting: {
         enabled: false
