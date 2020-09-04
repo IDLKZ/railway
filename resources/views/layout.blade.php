@@ -156,23 +156,24 @@
                     <h1 style="font-size: 16px; font-weight: 700; letter-spacing: 0.5px; color: white; margin-top: 15px">Вагонный Сервис</h1>
 
                 </div>
-                <div class="col-md-7 col-sm-12">
-                    <div class="text-left text-white" style="font-size: 16px; padding-left: 80px">
-                        <p><i class="docs-icon icofont-phone" style="font-size: 28px"></i>
-                            +7 778 995 9862</p>
-                        <p><i class="docs-icon icofont-envelope" style="font-size: 28px"></i>
-                            random@email.com</p>
-                        <p><i class="docs-icon icofont-location-pin" style="font-size: 28px"></i>
-                            г. Нур-Султан, улица Кунаева 10, 15 этаж</p>
-                    </div>
 
-                </div>
                 <div class="col-md-2 col-sm-12">
                     <div class="social-links">
 {{--                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>--}}
 {{--                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>--}}
 {{--                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>--}}
                     </div>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="text-left text-white" style="font-size: 16px; padding-left: 80px">
+                        <p><i class="docs-icon icofont-phone mr-2" style="font-size: 28px"></i>
+                            +7 778 995 9862</p>
+                        <p><i class="docs-icon icofont-envelope mr-2" style="font-size: 28px"></i>
+                            random@email.com</p>
+                        <p><i class="docs-icon icofont-location-pin mr-2" style="font-size: 28px"></i>
+                            г. Нур-Султан, улица Кунаева 10, 15 этаж</p>
+                    </div>
+
                 </div>
             </div>
 
