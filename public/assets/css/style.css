@@ -1420,6 +1420,11 @@ section {
         padding: 0 0 0;
         padding-bottom: 15px;
     }
+    .section-title {
+        text-align: center;
+        padding: 0 0;
+        position: relative;
+    }
 
 }
 @media (min-width: 400px) and (max-width: 520px) {
@@ -1437,6 +1442,11 @@ section {
     }
     .docs-div-icon{
         padding: 0 0 0; padding-bottom: 15px;
+    }
+    .section-title {
+        text-align: center;
+        padding: 0 0;
+        position: relative;
     }
 }
 @media (min-width: 520px) and (max-width: 850px) {
