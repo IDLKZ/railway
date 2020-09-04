@@ -12,12 +12,12 @@
             </div>
 
            <div class="container">
-           <div class="row mt-4 docs">
+           <div class="row mt-4 docs p-3">
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
                   <i class="icofont-file-document docs-icon" ></i>
               </div>
-              <div class="col-md-8 col-sm-12">
-                  <h4 class="docs-text" >Типовой договор по заявке на ремонт</h4>
+              <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
+                  <h4 class="text-center" >Типовой договор по заявке на ремонт</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
@@ -30,13 +30,13 @@
 
 
            </div>
-           <div class="row mt-4 docs" >
+           <div class="row mt-4 docs p-3" >
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
                   <i class="icofont-file-document docs-icon" ></i>
 
               </div>
-              <div class="col-md-8 col-sm-12">
-                  <h4 class="docs-text" >Гарантийное письмо</h4>
+              <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
+                  <h4 class="text-center" >Гарантийное письмо</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
@@ -48,13 +48,13 @@
 
 
            </div>
-           <div class="row mt-4 docs">
+           <div class="row mt-4 docs p-3">
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
                   <i class="icofont-file-document docs-icon" ></i>
 
               </div>
-              <div class="col-md-8 col-sm-12">
-                  <h4 class="docs-text" >Калькуляция</h4>
+              <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
+                  <h4 class="text-center" >Калькуляция</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
