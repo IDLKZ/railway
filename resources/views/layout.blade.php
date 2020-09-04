@@ -63,6 +63,7 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
+
                 <li class="active"><a href="{{route('home')}}">О компании</a></li>
                 <li><a href="{{route('home')}}#about">Ремонт по заявкам</a></li>
                 <li><a href="{{route("managers")}}">Руководство</a></li>
@@ -203,7 +204,6 @@
 <script src="/assets/js/map.js"></script>
 <script src="/assets/js/jquery.inputmask.min.js"></script>
 <script src="/assets/js/inputmask.binding.js"></script>
-
 </body>
 
 </html>

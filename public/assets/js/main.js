@@ -196,5 +196,8 @@
     loop: true,
     items: 1
   });
+    if(window.location.pathname == "/management"){
+        $(".owl-stage-outer").css({"padding-top":0})
+    }
 
 })(jQuery);

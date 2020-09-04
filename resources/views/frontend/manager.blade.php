@@ -2,6 +2,7 @@
 
 @section("content")
 
+
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
         <div class="container">
@@ -12,9 +13,9 @@
                 <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
             </div>
 
-            <div class="owl-carousel testimonials-carousel">
+            <div class="owl-carousel testimonials-carousel ">
 
-                        <div class="member p-2 text-center testimonial-item">
+                        <div class="member p-2 text-center testimonial-item ">
                             <img src="assets/img/team/team-1.jpg" alt="">
                             <h4 class="m-0">Жаксыбай Адиль</h4>
                             <span>Директор</span>
@@ -32,7 +33,7 @@
                             </div>
                         </div>
 
-                        <div class="member p-2 text-center testimonial-item">
+                        <div class="member p-2 text-center testimonial-item ">
                             <img src="assets/img/team/team-2.jpg" alt="">
                             <h4 class="m-0">Жаксыбай Адиль</h4>
                             <span>Директор</span>
@@ -50,7 +51,7 @@
                             </div>
                         </div>
 
-                        <div class="member p-2 text-center testimonial-item">
+                        <div class="member p-2 text-center testimonial-item ">
                             <img src="assets/img/team/team-3.jpg" alt="">
                             <h4 class="m-0">Жаксыбай Адиль</h4>
                             <span>Директор</span>
@@ -74,7 +75,6 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Cta Section ======= -->
-
 
 
 
