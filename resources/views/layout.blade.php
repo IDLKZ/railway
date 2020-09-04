@@ -152,7 +152,7 @@
 
 
                     <br>
-                    <span style="font-family: Montserrat;font-style: normal;font-size: 24px; color: white">Вагонный Сервис</span>
+                    <span style="font-family: Railway;font-size: 24px; color: white">Вагонный Сервис</span>
 
                 </div>
                 <div class="col-md-7 col-sm-12">
@@ -177,7 +177,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>Вагонный сервис</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span >Вагонный сервис</span></strong>. All Rights Reserved
         </div>
 {{--        <div class="credits">--}}
 {{--            Разработано веб-студией <a href="https://idl.kz">IDL</a>--}}

@@ -1412,6 +1412,14 @@ section {
     .mr-auto img{
         width: 80px;
     }
+    .docs-text{
+        text-align: center; padding: 0 0;
+        padding-top: 15px;
+    }
+    .docs-div-icon{
+        padding: 0 0 0;
+        padding-bottom: 15px;
+    }
 
 }
 @media (min-width: 400px) and (max-width: 520px) {
@@ -1423,6 +1431,12 @@ section {
     }
     .mr-auto img{
         width: 80px;
+    }
+    .docs-text{
+        text-align: center; padding: 0 0;padding-top: 15px;
+    }
+    .docs-div-icon{
+        padding: 0 0 0; padding-bottom: 15px;
     }
 }
 @media (min-width: 520px) and (max-width: 850px) {
@@ -1439,4 +1453,15 @@ section {
     margin: 30px 0 0 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+}
+.check1{
+    background-color: #F49D44;
+    color: white;box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+}
+.check1:hover{
+    background-color: #E8450C;
+    color: white;
+}
+.footer-text{
+    font-family: "Railway",sans-serif;
 }
