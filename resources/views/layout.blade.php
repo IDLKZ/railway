@@ -153,7 +153,7 @@
 
 
                     <br>
-                    <span style="font-family: Railway;font-size: 20px; font-weight: bold; color: white">Вагонный Сервис</span>
+                    <span style="font-family: Railway;font-size: 16px; font-weight: bold; color: white">Вагонный Сервис</span>
 
                 </div>
                 <div class="col-md-7 col-sm-12">
