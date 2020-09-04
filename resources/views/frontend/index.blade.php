@@ -12,7 +12,7 @@
                     <h1>О компании</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore facere vel doloribus est ex alias sunt excepturi eum enim dolorum ea unde cumque, quam minima nulla dolore deleniti nam voluptate?</h2>
                     <div class="d-flex">
-                        <a href="{{route('home')}}#contact" class="btn" style="background-color: #F49D44">Оставить заявку</a>
+                        <a href="{{route('home')}}#contact" class="btn btn-get-started scrollto" style="background-color: #F49D44">Оставить заявку</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 owl-carousel testimonials-slider">
@@ -611,7 +611,7 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="{{route('home')}}#contact" class="btn" style="background-color: #F49D44">Оставить заявку</a>
+                    <a href="{{route('home')}}#contact" class="btn btn-get-started" style="background-color: #F49D44">Оставить заявку</a>
                 </div>
             </div>
         </section>
