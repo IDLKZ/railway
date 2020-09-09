@@ -14,7 +14,7 @@
            <div class="container">
            <div class="row mt-4 docs p-3">
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
-                  <i class="icofont-file-document docs-icon" ></i>
+                  <i class="icofont-file-document docs-icon-left" ></i>
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
                   <h4 class="text-center" >Типовой договор по заявке на ремонт</h4>
@@ -32,7 +32,7 @@
            </div>
            <div class="row mt-4 docs p-3" >
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
-                  <i class="icofont-file-document docs-icon" ></i>
+                  <i class="icofont-file-document docs-icon-left" ></i>
 
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
@@ -50,7 +50,7 @@
            </div>
            <div class="row mt-4 docs p-3">
               <div class="col-md-2 col-sm-12 text-center docs-div-icon d-none d-sm-block" >
-                  <i class="icofont-file-document docs-icon" ></i>
+                  <i class="icofont-file-document docs-icon-left" ></i>
 
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
