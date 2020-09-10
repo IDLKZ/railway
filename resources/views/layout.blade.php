@@ -40,8 +40,8 @@
     }
     .contact-send {
         width: 100%;
-        border-top: 3px solid #F49D44;
-        border-bottom: 3px solid #F49D44;
+        border-top: 3px solid #FFBF75;
+        border-bottom: 3px solid #FFBF75;
         padding: 30px;
         background-color: #f9f9fa;
     }
