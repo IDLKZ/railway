@@ -17,7 +17,7 @@
                   <i class="icofont-file-document docs-icon-left" ></i>
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
-                  <h4 class="text-center" >Типовой договор по заявке на ремонт</h4>
+                  <h4 class="text-center docs-text-main" >Типовой договор по заявке на ремонт</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
@@ -36,7 +36,7 @@
 
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
-                  <h4 class="text-center" >Гарантийное письмо</h4>
+                  <h4 class="text-center docs-text-main" >Гарантийное письмо</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
@@ -54,7 +54,7 @@
 
               </div>
               <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center">
-                  <h4 class="text-center" >Калькуляция</h4>
+                  <h4 class="text-center docs-text-main" >Калькуляция</h4>
               </div>
                <div class="col-md-2 col-sm-12 text-center docs-div-icon">
                    <div class="row justify-content-center">
